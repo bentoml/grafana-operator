@@ -1,7 +1,7 @@
 domain: integreatly.org
 layout: go.kubebuilder.io/v3
 projectName: grafana-operator
-repo: github.com/integr8ly/grafana-operator
+repo: github.com/bentoml/grafana-operator
 resources:
 - crdVersion: v1
   group: integreatly.org

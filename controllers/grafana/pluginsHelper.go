@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	grafanav1alpha1 "github.com/integr8ly/grafana-operator/api/integreatly/v1alpha1"
-	"github.com/integr8ly/grafana-operator/controllers/config"
+	grafanav1alpha1 "github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
+	"github.com/bentoml/grafana-operator/controllers/config"
 )
 
 type PluginsHelperImpl struct {

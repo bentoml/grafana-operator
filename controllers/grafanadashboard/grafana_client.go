@@ -11,7 +11,7 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/integr8ly/grafana-operator/api/integreatly/v1alpha1"
+	"github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
 )
 
 const (

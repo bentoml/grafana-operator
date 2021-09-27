@@ -19,4 +19,4 @@ spec:
           - datasourceUid: "someuid"
             matcherRegex: "/^[A-Za-z]+$/"
             name: "test"
-            url: "https://github.com/integr8ly"
+            url: "https://github.com/bentoml"

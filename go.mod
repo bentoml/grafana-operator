@@ -1,4 +1,4 @@
-module github.com/integr8ly/grafana-operator
+module github.com/bentoml/grafana-operator
 
 go 1.16
 

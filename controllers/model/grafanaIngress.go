@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/integr8ly/grafana-operator/api/integreatly/v1alpha1"
-	"github.com/integr8ly/grafana-operator/controllers/constants"
+	"github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
+	"github.com/bentoml/grafana-operator/controllers/constants"
 	netv1 "k8s.io/api/networking/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"

@@ -22,7 +22,7 @@ A Kubernetes Operator based on the Operator SDK for creating and managing Grafan
   <img src="media/users/integreatly.png" alt="Avatar" style=margin: auto;width="250" height="100" box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;">
   <div class="container" style="text-align: center; padding: 2px 16px;">
-    <h4><b><a href ="https://github.com/integr8ly/integreatly-operator">Integreatly</a></b></h4>
+    <h4><b><a href ="https://github.com/bentoml/integreatly-operator">Integreatly</a></b></h4>
     <p><a href="https://www.redhat.com/en/products/integration">Red Hat</a></p>
   </div>
 </div>

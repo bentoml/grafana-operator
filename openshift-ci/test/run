@@ -17,7 +17,7 @@ docker run --rm -u $UID -v "${WORK_DIR}/../..:/grafana-operator:z" --entrypoint=
 docker run --rm -u $UID -v "${WORK_DIR}/../..:/grafana-operator:z" --entrypoint=/bin/sh ${IMAGE_NAME} -c "cd /grafana-operator && make test/e2e"
 
 #Requires you to be oc logged in to any cluster on your host machine
-GRAFANA_OPERATOR_IMAGE="registry.svc.ci.openshift.org/integr8ly/grafana-operator"
+GRAFANA_OPERATOR_IMAGE="registry.svc.ci.openshift.org/bentoml/grafana-operator"
 E2E_CMD="operator-sdk --verbose test local ./openshift-ci/test/e2e --namespace=test --go-test-flags \"-timeout=60m\" --debug --image=${GRAFANA_OPERATOR_IMAGE}"
 docker run --rm -e KUBECONFIG=/kube.config -v "${HOME}/.kube/config":/kube.config:z -u $UID -v "${WORK_DIR}/../..:/grafana-operator:z" --entrypoint=/bin/sh "${IMAGE_NAME}" -c "cd /grafana-operator && ${E2E_CMD}"
 

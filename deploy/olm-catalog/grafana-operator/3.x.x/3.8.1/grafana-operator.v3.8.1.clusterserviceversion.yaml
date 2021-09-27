@@ -39,7 +39,7 @@ metadata:
     containerImage: quay.io/integreatly/grafana-operator:v3.8.1
     createdAt: 2020-07-31 00:00:00
     description: An Operator for managing Grafana instances, dashboards and data sources
-    repository: https://github.com/integr8ly/grafana-operator
+    repository: https://github.com/bentoml/grafana-operator
     support: Red Hat
   name: grafana-operator.v3.8.1
   namespace: placeholder
@@ -206,7 +206,7 @@ spec:
     - Monitoring
   links:
     - name: Documentation
-      url: https://github.com/integr8ly/grafana-operator/tree/v3.8.1/documentation
+      url: https://github.com/bentoml/grafana-operator/tree/v3.8.1/documentation
     - name: Grafana
       url: https://grafana.com
   maintainers:

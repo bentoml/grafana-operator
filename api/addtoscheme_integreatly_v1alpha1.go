@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/integr8ly/grafana-operator/api/integreatly/v1alpha1"
+	"github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
 )
 
 func init() {

@@ -3,10 +3,10 @@ package model
 import (
 	"fmt"
 
-	"github.com/integr8ly/grafana-operator/controllers/constants"
+	"github.com/bentoml/grafana-operator/controllers/constants"
 
-	"github.com/integr8ly/grafana-operator/api/integreatly/v1alpha1"
-	"github.com/integr8ly/grafana-operator/controllers/config"
+	"github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
+	"github.com/bentoml/grafana-operator/controllers/config"
 	v1 "k8s.io/api/apps/v1"
 	v13 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
