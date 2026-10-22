@@ -24,12 +24,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/go-logr/logr"
 	grafanav1alpha1 "github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
 	integreatlyorgv1alpha1 "github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
 	"github.com/bentoml/grafana-operator/controllers/common"
 	"github.com/bentoml/grafana-operator/controllers/config"
 	"github.com/bentoml/grafana-operator/controllers/constants"
+	"github.com/go-logr/logr"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"

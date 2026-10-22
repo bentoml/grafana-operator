@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-logr/logr"
-	"github.com/google/go-jsonnet"
 	"github.com/bentoml/grafana-operator/api/integreatly/v1alpha1"
 	"github.com/bentoml/grafana-operator/controllers/config"
+	"github.com/go-logr/logr"
+	"github.com/google/go-jsonnet"
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
